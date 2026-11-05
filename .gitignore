@@ -1,0 +1,8 @@
+tutor.db
+*.db-wal
+*.db-shm
+data/
+.venv/
+__pycache__/
+.env
+*.py[cod]
