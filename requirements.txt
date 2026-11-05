@@ -1,0 +1,9 @@
+fastapi>=0.95,<0.100; python_version < "3.8"
+fastapi>=0.110,<1.0; python_version >= "3.8"
+uvicorn[standard]>=0.20,<0.22; python_version < "3.8"
+uvicorn[standard]>=0.27,<1.0; python_version >= "3.8"
+PyMuPDF>=1.21.1,<1.22; python_version < "3.8"
+PyMuPDF>=1.23,<2.0; python_version >= "3.8"
+Pillow>=9,<10; python_version < "3.8"
+Pillow>=10,<13; python_version >= "3.8"
+pytesseract>=0.3,<0.4
