@@ -2,6 +2,12 @@
 
 A full-stack college learning app: FastAPI + SQLAlchemy + SQLite for the API, and React + Vite + Tailwind CSS for the interface.
 
+## Teacher demo
+
+Temporary live link: <https://depth-offset-brussels-living.trycloudflare.com>
+
+This demo URL is temporary. It works only while the host computer, Learnwell, and Ollama are running, and the URL changes when the temporary tunnel restarts. Visitors must sign in or create an account to use the app.
+
 ## Start locally
 
 Requirements: Python 3.8+ and Node.js 18+ with pnpm (npm also works).
