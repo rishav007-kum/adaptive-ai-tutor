@@ -8,6 +8,12 @@ Temporary live link: <https://depth-offset-brussels-living.trycloudflare.com>
 
 This demo URL is temporary. It works only while the host computer, Learnwell, and Ollama are running, and the URL changes when the temporary tunnel restarts. Visitors must sign in or create an account to use the app.
 
+## Permanent cloud deployment
+
+The repository includes `../render.yaml` and this folder's `Dockerfile` for Render. The blueprint creates a public web service and a persistent PostgreSQL database. The database is a paid Render resource (currently about $6/month); the web service uses the free plan and may take about a minute to wake after 15 minutes idle. The hostname remains stable.
+
+Ollama runs on the desktop computer and is not available from a cloud service. To enable cloud AI, enter an OpenAI-compatible provider's base URL, API key, and model name as the `LLM_BASE_URL`, `LLM_API_KEY`, and `LLM_MODEL` secrets when configuring the Render deployment. Never put the API key in GitHub. Without those values, the app uses its clearly labeled offline guidance.
+
 ## Start locally
 
 Requirements: Python 3.8+ and Node.js 18+ with pnpm (npm also works).
