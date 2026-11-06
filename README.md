@@ -2,6 +2,15 @@
 
 A full-stack Python tutoring app built with FastAPI, SQLite, and a responsive browser interface. It supports student, teacher, and parent accounts, course and lesson workflows, adaptive multiple-choice quizzes, a configurable AI tutor, saved answers, and a searchable open-resource hub.
 
+## Live Learnwell demo
+
+- Website: [https://learnwell-tutor-app.onrender.com](https://learnwell-tutor-app.onrender.com)
+- API health: [https://learnwell-api-72b1.onrender.com/api/health](https://learnwell-api-72b1.onrender.com/api/health)
+
+These are stable Render URLs while the services remain active; no host can guarantee a link for a lifetime. The current web and API services use Render's free plan. The API can sleep when idle, and SQLite data on its temporary filesystem can be lost after a restart or redeploy. Do not store important student records in this demo. Persistent database hosting requires billing setup.
+
+The hosted tutor does not currently have an LLM API key. It uses the app's clearly identified local study-guide fallback and does not present those answers as AI-generated. Add the model provider settings in Render's service environment to enable hosted AI responses.
+
 ## Run on Windows
 
 Use Python 3.10 or later. In PowerShell, open this folder and run:
